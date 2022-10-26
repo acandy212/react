@@ -5,8 +5,8 @@ function App() {
     <div className="App">
       <Header 
         linkText="Learn React"
-        linkUrl="https://reactjs.org"
-      />
+        linkUrl="https://reactjs.org" />
+      <MainBody />
     </div>
   );
 }
