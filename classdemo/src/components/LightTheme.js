@@ -3,7 +3,7 @@ import '../sass/Light.scss'
 
 const Theme = () => <></>
 
-export default theme
+export default Theme
 
 // return(
 //     <>

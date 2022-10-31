@@ -3,4 +3,4 @@ import '../sass/Dark.scss'
 
 const Theme = () => <></>
 
-export default theme
+export default Theme
