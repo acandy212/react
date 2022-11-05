@@ -32,7 +32,7 @@ class Header extends Component{
                 <span>
                     You have clicked on the button {this.state.count} times!
                 </span>
-                <button onClick= {() => this.setState({ count : this.state.count + 1})}>
+                <button role="button" onClick= {() => this.setState({ count : this.state.count + 1})}>
                     Increment Count
                 </button>
                 <MainBody />
