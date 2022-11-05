@@ -7,16 +7,14 @@ const LightTheme = React.lazy(() => import('./components/LightTheme'));
 const DarkTheme = React.lazy(() => import('./components/DarkTheme'));
 
 const ThemeSelector = ({children}) => {
-  const {theme, setTheme} = useState(localStorage.getItem('theme') || window.matchMedia('(prefers-color-scheme: dark)').matches ? "dark" : "light");
-  // console.log(localStorage.getItem('theme'))
-  // console.log(window.matchMedia('(prefers-color-scheme: dark)').matches)
+  const [theme, setTheme] = useState(localStorage.getItem('theme') || window.matchMedia('(prefers-color-scheme: dark)').matches ? true : false);
   console.log(theme)
   localStorage.setItem('theme', theme)
   return(
     <React.Suspense fallback={<></>} >
-      {theme ? <DarkTheme /> : <LightTheme />}
-      {!theme === false && <LightTheme />}
-      <button onClick={() => setTheme('!theme')}> Change Mode</button>
+      {theme === true && <DarkTheme />}
+      {theme === false && <LightTheme />}
+      <button onClick={() => setTheme(!theme)}> Change Mode </button>
       {children}
     </React.Suspense>
   )
