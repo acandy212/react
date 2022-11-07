@@ -1,4 +1,6 @@
 //https://onepagelove.com/inspiration/resume/page/2
+//https://www.techomoro.com/create-a-simple-resume-builder-app-using-react/
+//https://reactjsexample.com/make-a-standard-one-page-resume-in-5-minutes-with-react/
 
 import React from 'react';
 import ReactDOM from 'react-dom/client';
