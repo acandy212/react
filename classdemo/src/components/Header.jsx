@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import MainBody from "./MainBody";
+// import MainBody from "./MainBody";
 
 class Header extends Component{
     constructor(props){
@@ -70,7 +70,7 @@ class Header extends Component{
                         <li>Dual Enrollment Student - Gordon State College</li>
                     </ul>
                 </h6>
-                <MainBody />
+                {/* <MainBody /> */}
             </header>
         )
     }
