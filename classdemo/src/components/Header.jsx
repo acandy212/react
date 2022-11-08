@@ -19,22 +19,23 @@ class Header extends Component{
 
         return(
             <header className={`App-header ${this.state.theme}`}>
-                <p className={"testing-this " + this.state.theme}>
-                Edit <code>src/App.js</code> and save to reload.
-                </p>
-                <a className="App-link" href={linkUrl} target="_blank" rel="noopener noreferrer" >
-                    {linkText}
-                </a>
                 <div>
-                    <h3> Your stateful name is: <i>{name}</i></h3>
-                    <input type="text" value={name} onChange={(e) => this.setState({name : e.target.value})}/>
+                <h1>
+                Amanda Candies's Resume
+                </h1>
+                <h5> Information Technology Major pursuing a Web Development Certification</h5>
                 </div>
-                <span>
-                    You have clicked on the button {this.state.count} times!
-                </span>
-                <button role="button" onClick= {() => this.setState({ count : this.state.count + 1})}>
-                    Increment Count
-                </button>
+                <h3 className="experience">Experience</h3>
+                <h5>UITS HELP DESK, Columbus State University-Student Assistant</h5>
+                <h6>October 2022-Present</h6>
+                <h6>
+                    <ul>
+                        <li>Troubleshot devices for student and faculty</li>
+                        <li>Direct students, faculty, and staff to the proper departments for further assistance</li>
+                        <li>Assisted faculty and students with technical support issues</li>
+                        <li>Establish and reset student passwords and Mult-Factor Authentication</li>
+                    </ul>
+                </h6>
                 <MainBody />
             </header>
         )
