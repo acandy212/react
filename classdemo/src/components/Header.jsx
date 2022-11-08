@@ -36,6 +36,40 @@ class Header extends Component{
                         <li>Establish and reset student passwords and Mult-Factor Authentication</li>
                     </ul>
                 </h6>
+
+                <h5>LEARNING INTERNSHIP - Vitae Electronics</h5>
+                <h6>August 2022-Present</h6>
+                <h6>
+                    <ul>
+                        <li>Web Development Programming (HTML, CSS, JavaScript, etc.)</li>
+                        <li>Database construction and management (Relational Database Methodologies / SQL)</li>
+                        <li>Cloud Platform management (e.g., Google Cloud Platform)</li>
+                        <li>Machine Learning model deployment</li>
+                        <li>Code Editors (Visual Studio, Vim, Eclipse, Atom, etc.) and Version Control (GitHub)</li>
+                    </ul>
+                </h6>
+
+                <h3 className="education">Education/Classes Taken</h3>
+                <h5>COLUMBUS STATE UNIVERSITY, Columbus Ga-Graduate in 2023</h5>
+                <h6>
+                    <ul>
+                        <li>Web Development (Html and CSS)</li>
+                        <li>Intro to Graphic User Interface (Visual Studio)</li>
+                        <li>Database Design</li>
+                        <li>Computer Science  (Python and Java)</li>
+                        <li>Amazon Web Service (AWS)</li>
+                    </ul>
+                </h6>
+
+                <h5>STOCKBRIDGE HIGH SCHOOL, Stockbridge Ga - Diploma</h5>
+                <h6>August 2016-May 2020</h6>
+                <h6>
+                    <ul>
+                        <li>Computer Science (Python)</li>
+                        <li>Programming games and apps</li>
+                        <li>Dual Enrollment Student - Gordon State College</li>
+                    </ul>
+                </h6>
                 <MainBody />
             </header>
         )
