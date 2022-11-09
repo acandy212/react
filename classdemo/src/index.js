@@ -16,7 +16,6 @@ const ThemeSelector = ({children}) => {
     <React.Suspense fallback={<></>} key={theme}>
       {theme === 'dark' && <DarkTheme />}
       {theme === 'light' && <LightTheme />}
-      {/* <Button variant="danger">Danger</Button> */}
       {children}
     </React.Suspense>
   )
